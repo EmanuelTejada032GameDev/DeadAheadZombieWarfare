@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public int couragePoints;
 
+    [SerializeField] private Transform troopSpawner;
+
     public int CouragePoints{
         get => couragePoints;
         set
@@ -33,11 +35,19 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine("CouragePointsCounter");
     }
+    public void spawnTroop(GameObject troop)
+    {
+        Troop troopScript = troop.GetComponent<Troop>();
+        if(troopScript.couragePointsCost <= couragePoints)
+        {
+            CouragePoints -= troopScript.couragePointsCost;
+            Instantiate(troop, troopSpawner.position, Quaternion.identity);
+        }
+    }
 
     IEnumerator CouragePointsCounter()
     {
         yield return new WaitForSeconds(1);
-        Debug.Log(CouragePoints);
         if(couragePoints < 100)
         {
             CouragePoints+=2;
