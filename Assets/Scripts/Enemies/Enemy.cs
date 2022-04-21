@@ -2,25 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Troop : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    public int couragePointsCost;
+
     public int movementSpeed = 1;
 
     [SerializeField] private Animator animator;
 
     [SerializeField] private int health;
 
-    [SerializeField] private int damagePoints; 
+    [SerializeField] private int damagePoints;
     [SerializeField] private float attackInterval;
 
     Coroutine attackCoroutine;
 
-    private Enemy enemyTarget;
+    private Troop troopTarget;
 
     private void Update()
     {
-        if (!enemyTarget)
+        if (!troopTarget)
         {
             Move();
         }
@@ -29,47 +29,47 @@ public class Troop : MonoBehaviour
     private void Move()
     {
         animator.Play("Run");
-        transform.position += new Vector3(1, 0, 0) * movementSpeed * Time.deltaTime;
-        //== Transform.Translate(Transform.right*movementSpeed*Time.deltaTime)
+        transform.position += new Vector3(-1, 0, 0) * movementSpeed * Time.deltaTime;
+        //== Transform.Translate(-Transform.right*movementSpeed*Time.deltaTime)
     }
 
     public bool takeDamage(int damageAmount)
     {
         health -= damageAmount;
-        if(health <= 0)
+        if (health <= 0)
         {
             Destroy(gameObject, 0.1f);
             return true;
         }
-            return false;
+        return false;
 
     }
 
     public void dealDamage()
     {
-       bool isEnemyDead = enemyTarget.takeDamage(damagePoints);
-        if (isEnemyDead)
+        bool isTargetDead = troopTarget.takeDamage(damagePoints);
+        if (isTargetDead)
         {
-            enemyTarget = null;
+            troopTarget = null;
             StopCoroutine(attackCoroutine);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(enemyTarget != null)
+        if (troopTarget != null)
             return;
 
-        if (collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Troop"))
         {
-            enemyTarget = collision.GetComponent<Enemy>();
+            troopTarget = collision.GetComponent<Troop>();
             attackCoroutine = StartCoroutine(Attack());
         }
     }
 
     IEnumerator Attack()
     {
-        animator.Play("Attack_Light", 0, 0);
+        animator.Play("Attack_Light");
         yield return new WaitForSeconds(attackInterval);
         attackCoroutine = StartCoroutine(Attack());
     }

@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public int couragePoints;
+    public int enemiesToSpawn;
 
     [SerializeField] private Transform troopSpawner;
 
