@@ -1,7 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 public class Enemy : MonoBehaviour
 {
 
@@ -10,17 +8,27 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Animator animator;
 
     [SerializeField] private int health;
+    [SerializeField] private int maxHealth;
+    [SerializeField] private HealthBarUI healthBar;
 
     [SerializeField] private int damagePoints;
     [SerializeField] private float attackInterval;
 
     Coroutine attackCoroutine;
 
-    private Troop troopTarget;
+    public Troop troopTarget;
+    public TroopSpawner troopBase;
+
+
+    private void Start()
+    {
+        healthBar.SetMaxHealth(maxHealth);
+        health = maxHealth;
+    }
 
     private void Update()
     {
-        if (!troopTarget)
+        if (troopTarget == null)
         {
             Move();
         }
@@ -35,24 +43,30 @@ public class Enemy : MonoBehaviour
 
     public bool takeDamage(int damageAmount)
     {
-        health -= damageAmount;
-        if (health <= 0)
-        {
-            Destroy(gameObject, 0.1f);
-            return true;
-        }
-        return false;
+
+            health -= damageAmount;
+            healthBar.SetHealth(health);
+            if (health <= 0)
+            {
+                Destroy(gameObject);
+                return true;
+            }
+            return false;
 
     }
 
     public void dealDamage()
     {
-        bool isTargetDead = troopTarget.takeDamage(damagePoints);
-        if (isTargetDead)
+        if (troopTarget != null)
         {
-            troopTarget = null;
-            StopCoroutine(attackCoroutine);
+            bool isTargetDead = troopTarget.takeDamage(damagePoints);
+            if (isTargetDead)
+            {
+                troopTarget = null;
+                StopCoroutine(attackCoroutine);
+            }
         }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

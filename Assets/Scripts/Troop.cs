@@ -10,17 +10,26 @@ public class Troop : MonoBehaviour
     [SerializeField] private Animator animator;
 
     [SerializeField] private int health;
+    [SerializeField] private int maxHealth;
+    [SerializeField]private HealthBarUI healthBar;
 
     [SerializeField] private int damagePoints; 
     [SerializeField] private float attackInterval;
 
     Coroutine attackCoroutine;
 
-    private Enemy enemyTarget;
+    public Enemy enemyTarget;
+
+
+    private void Start()
+    {
+        healthBar.SetMaxHealth(maxHealth);
+        health = maxHealth;
+    }
 
     private void Update()
     {
-        if (!enemyTarget)
+        if (enemyTarget == null && health > 0)
         {
             Move();
         }
@@ -35,23 +44,35 @@ public class Troop : MonoBehaviour
 
     public bool takeDamage(int damageAmount)
     {
-        health -= damageAmount;
-        if(health <= 0)
-        {
-            Destroy(gameObject, 0.1f);
-            return true;
-        }
+       
+            health -= damageAmount;
+            healthBar.SetHealth(health);
+            if (health <= 0)
+            {
+                enemyTarget = null;
+                StopCoroutine(attackCoroutine);
+                GameObject healthBarCanvas = gameObject.transform.Find("Canvas").gameObject;
+                if(healthBarCanvas != null )healthBarCanvas.SetActive(false);
+                transform.position = new Vector3(transform.position.x, transform.position.y+1f, transform.position.z);
+                animator.Play("Death");
+                Destroy(gameObject,3f);
+                return true;
+            }
+        
             return false;
 
     }
 
     public void dealDamage()
     {
-       bool isEnemyDead = enemyTarget.takeDamage(damagePoints);
-        if (isEnemyDead)
+        if (enemyTarget != null)
         {
-            enemyTarget = null;
-            StopCoroutine(attackCoroutine);
+            bool isEnemyDead = enemyTarget.takeDamage(damagePoints);
+            if (isEnemyDead)
+            {
+                enemyTarget = null;
+                StopCoroutine(attackCoroutine);
+            }
         }
     }
 

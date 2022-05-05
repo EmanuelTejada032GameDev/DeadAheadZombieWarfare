@@ -1,0 +1,486 @@
+fileFormatVersion: 2
+guid: c916d1c6a14d7ef4aaa356511bde1137
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3840270552984305881
+    second: Death Jailer SpritesheetAutomatic_0
+  - first:
+      213: -3683852928883066437
+    second: Death Jailer SpritesheetAutomatic_1
+  - first:
+      213: -2995415169975246163
+    second: Death Jailer SpritesheetAutomatic_2
+  - first:
+      213: 5707444802130805977
+    second: Death Jailer SpritesheetAutomatic_3
+  - first:
+      213: -7854119081745333077
+    second: Death Jailer SpritesheetAutomatic_4
+  - first:
+      213: 5855566677499095270
+    second: Death Jailer SpritesheetAutomatic_5
+  - first:
+      213: 8707895481953941630
+    second: Death Jailer SpritesheetAutomatic_6
+  - first:
+      213: 2004418959073745772
+    second: Death Jailer SpritesheetAutomatic_7
+  - first:
+      213: 7428195436019922644
+    second: Death Jailer SpritesheetAutomatic_8
+  - first:
+      213: -5877192967265856280
+    second: Death Jailer SpritesheetAutomatic_9
+  - first:
+      213: -3176330117135782313
+    second: Death Jailer SpritesheetAutomatic_10
+  - first:
+      213: -5453827298541848189
+    second: Death Jailer SpritesheetAutomatic_11
+  - first:
+      213: 5858224397485625581
+    second: Death Jailer SpritesheetAutomatic_12
+  - first:
+      213: 6224156578028852755
+    second: Death Jailer SpritesheetAutomatic_13
+  - first:
+      213: 1139337472986421548
+    second: Death Jailer SpritesheetAutomatic_14
+  - first:
+      213: -296031042224513091
+    second: Death Jailer SpritesheetAutomatic_15
+  - first:
+      213: -3979898952989100802
+    second: Death Jailer SpritesheetAutomatic_16
+  - first:
+      213: 7238334539640341918
+    second: Death Jailer SpritesheetAutomatic_17
+  - first:
+      213: 3786523808761526854
+    second: Death Jailer SpritesheetAutomatic_18
+  - first:
+      213: 1113997591527084946
+    second: Death Jailer SpritesheetAutomatic_19
+  - first:
+      213: 7658595933967134123
+    second: Death Jailer SpritesheetAutomatic_20
+  - first:
+      213: 5709231531197517903
+    second: Death Jailer SpritesheetAutomatic_21
+  - first:
+      213: 6018893605769168560
+    second: Death Jailer SpritesheetAutomatic_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 256
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0c508a8b16b4530800000000000000
+      internalID: 3840270552984305881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 256
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb97421774350ecc0800000000000000
+      internalID: -3683852928883066437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 256
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8a2fa7ed6234150800000000000000
+      internalID: 5855566677499095270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_7
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 257
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b16a46c6021db10800000000000000
+      internalID: 2004418959073745772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 253
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6352e8460461760800000000000000
+      internalID: 7428195436019922644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_9
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 256
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4d1bd8224007ea0800000000000000
+      internalID: -5877192967265856280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 126
+        width: 73
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389b514b7fc1054b0800000000000000
+      internalID: -5453827298541848189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 128
+        width: 56
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de058a22d089c4150800000000000000
+      internalID: 5858224397485625581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_13
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 128
+        width: 74
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31612d34e65a06650800000000000000
+      internalID: 6224156578028852755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 126
+        width: 77
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf18b5e55944ebf0800000000000000
+      internalID: -296031042224513091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_17
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 128
+        width: 78
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9504b8d9eab37460800000000000000
+      internalID: 7238334539640341918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_19
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 124
+        width: 90
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293dc9348e6b57f00800000000000000
+      internalID: 1113997591527084946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death Jailer SpritesheetAutomatic_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 84
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40dc7d24d34b3f40800000000000000
+      internalID: 5709231531197517903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

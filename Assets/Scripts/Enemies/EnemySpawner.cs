@@ -10,10 +10,17 @@ public class EnemySpawner : MonoBehaviour
     private int maxEnemiesToSpawn;
     private int enemySpawned;
 
+    [SerializeField] private int health;
+    [SerializeField] private int maxHealth;
+    [SerializeField] private HealthBarUI healthBar;
+   
+
     private void Start()
     {
-       maxEnemiesToSpawn = GameManager.Instance.enemiesToSpawn;
-       StartCoroutine("SpawnEnemy");
+        healthBar.SetMaxHealth(maxHealth);
+        health = maxHealth;
+        maxEnemiesToSpawn = GameManager.Instance.enemiesToSpawn;
+        StartCoroutine("SpawnEnemy");
     }
 
     private GameObject GetRandomEnemy()
@@ -22,9 +29,20 @@ public class EnemySpawner : MonoBehaviour
         return enemies[0];
     }
 
+    public bool takeDamage(int damageAmount)
+    {
+        health -= damageAmount;
+        healthBar.SetHealth(health);
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+            return true;
+        }
+        return false;
+
+    }
     IEnumerator SpawnEnemy()
     {
-        Debug.Log("Should Spawn enemy");
         yield return new WaitForSeconds(spawnInterval);
         if(enemySpawned <= maxEnemiesToSpawn)
         {
@@ -35,8 +53,5 @@ public class EnemySpawner : MonoBehaviour
        
 
     }
-
-    
-
 
 }
