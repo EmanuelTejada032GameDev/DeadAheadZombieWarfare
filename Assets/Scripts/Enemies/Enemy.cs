@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 public class Enemy : MonoBehaviour
@@ -18,6 +19,9 @@ public class Enemy : MonoBehaviour
 
     public Troop troopTarget;
     public TroopSpawner troopBase;
+
+    [SerializeField]
+    private GameObject _floatingTextPrefab;
 
 
     private void Start()
@@ -45,6 +49,7 @@ public class Enemy : MonoBehaviour
     {
 
             health -= damageAmount;
+            if (_floatingTextPrefab) ShowFloatingText(damageAmount);
             healthBar.SetHealth(health);
             if (health <= 0)
             {
@@ -53,6 +58,13 @@ public class Enemy : MonoBehaviour
             }
             return false;
 
+    }
+
+    private void ShowFloatingText(int damageAmount)
+    {
+        var gameObj = Instantiate(_floatingTextPrefab, transform.position, Quaternion.identity, transform);
+        gameObj.transform.localScale = new Vector3(-gameObj.transform.localScale.x, gameObj.transform.localScale.y, gameObj.transform.localScale.z);
+        gameObj.GetComponent<TextMesh>().text = $"-{damageAmount.ToString()}";
     }
 
     public void dealDamage()

@@ -36,15 +36,6 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine("CouragePointsCounter");
     }
-    public void spawnTroop(GameObject troop)
-    {
-        Troop troopScript = troop.GetComponent<Troop>();
-        if(troopScript.couragePointsCost <= couragePoints)
-        {
-            CouragePoints -= troopScript.couragePointsCost;
-            Instantiate(troop, troopSpawner.position, Quaternion.identity);
-        }
-    }
 
     IEnumerator CouragePointsCounter()
     {

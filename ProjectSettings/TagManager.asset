@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Troop
   - EnemySpawner
+  - Collectible
   layers:
   - Default
   - TransparentFX

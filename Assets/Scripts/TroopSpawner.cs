@@ -21,6 +21,16 @@ public class TroopSpawner : MonoBehaviour
 
     }
 
+    public void spawnTroop(GameObject troop)
+    {
+        Troop troopScript = troop.GetComponent<Troop>();
+        if (troopScript.couragePointsCost <= GameManager.Instance.couragePoints)
+        {
+            GameManager.Instance.CouragePoints -= troopScript.couragePointsCost;
+            Instantiate(troop, transform.position, Quaternion.identity);
+        }
+    }
+
     private void Start()
     {
         healthBar.SetMaxHealth(maxHealth);

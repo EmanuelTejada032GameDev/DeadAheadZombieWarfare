@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,7 @@ public class Troop : MonoBehaviour
 {
     public int couragePointsCost;
     public int movementSpeed = 1;
+    public Material troopMaterial;
 
     [SerializeField] private Animator animator;
 
@@ -13,12 +15,15 @@ public class Troop : MonoBehaviour
     [SerializeField] private int maxHealth;
     [SerializeField]private HealthBarUI healthBar;
 
-    [SerializeField] private int damagePoints; 
+    [SerializeField] public int damagePoints; 
     [SerializeField] private float attackInterval;
 
     Coroutine attackCoroutine;
 
     public Enemy enemyTarget;
+
+    [SerializeField]
+    private GameObject _floatingTextPrefab;
 
 
     private void Start()
@@ -46,6 +51,8 @@ public class Troop : MonoBehaviour
     {
        
             health -= damageAmount;
+            animator.Play("Hit");
+            if(_floatingTextPrefab) ShowFloatingText(damageAmount);
             healthBar.SetHealth(health);
             if (health <= 0)
             {
@@ -55,12 +62,19 @@ public class Troop : MonoBehaviour
                 if(healthBarCanvas != null )healthBarCanvas.SetActive(false);
                 transform.position = new Vector3(transform.position.x, transform.position.y+1f, transform.position.z);
                 animator.Play("Death");
+                gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 Destroy(gameObject,3f);
                 return true;
             }
         
             return false;
 
+    }
+
+    private void ShowFloatingText(int damageAmount)
+    {
+       var gameObj =  Instantiate(_floatingTextPrefab, transform.position, Quaternion.identity, transform); // this makes the istantiated prefab a child of this object
+       gameObj.GetComponent<TextMesh>().text = $"-{damageAmount.ToString()}";
     }
 
     public void dealDamage()
