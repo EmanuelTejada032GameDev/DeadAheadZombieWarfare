@@ -8,6 +8,7 @@ public class Troop : MonoBehaviour
     public int couragePointsCost;
     public int movementSpeed = 1;
     public Material troopMaterial;
+    [SerializeField] private SpriteRenderer spriteRenderer;
 
     [SerializeField] private Animator animator;
 
@@ -51,7 +52,11 @@ public class Troop : MonoBehaviour
     {
        
             health -= damageAmount;
-            animator.Play("Hit");
+            if(health > 0)
+            {
+                animator.Play("Hit");
+            }
+            
             if(_floatingTextPrefab) ShowFloatingText(damageAmount);
             healthBar.SetHealth(health);
             if (health <= 0)
@@ -63,6 +68,7 @@ public class Troop : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, transform.position.y+1f, transform.position.z);
                 animator.Play("Death");
                 gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                spriteRenderer.material.SetFloat("_OutlineAlpha", 0f);
                 Destroy(gameObject,3f);
                 return true;
             }

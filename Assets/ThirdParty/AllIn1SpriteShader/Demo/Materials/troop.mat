@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: troop
   m_Shader: {fileID: 4800000, guid: a36b7719ff0465b42ab1407d67672c5f, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA HITEFFECT_ON OUTBASE_ON
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA GLOWTEX_ON HITEFFECT_ON OUTBASE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -104,7 +104,7 @@ Material:
     - _EditorDrawers: 6
     - _FadeAmount: -0.1
     - _FadeBurnGlow: 1
-    - _FadeBurnTransition: 0.123
+    - _FadeBurnTransition: 0.137
     - _FadeBurnWidth: 0.204
     - _FishEyeUvAmount: 0.35
     - _FlickerAlpha: 0
@@ -115,8 +115,8 @@ Material:
     - _GhostTransparency: 0
     - _GlitchAmount: 3
     - _GlitchSize: 1
-    - _Glow: 0.21
-    - _GlowGlobal: 1.18
+    - _Glow: 0.09
+    - _GlowGlobal: 1.11
     - _GradBlend: 1
     - _GradBoostX: 1.2
     - _GradBoostY: 1.2
@@ -132,7 +132,7 @@ Material:
     - _HandDrawnAmount: 10
     - _HandDrawnSpeed: 5
     - _HitEffectBlend: 0
-    - _HitEffectGlow: 5
+    - _HitEffectGlow: 1
     - _HologramBlend: 1
     - _HologramMaxAlpha: 0.75
     - _HologramMinAlpha: 0.1
@@ -162,7 +162,7 @@ Material:
     - _OutlineDistortAmount: 0.5
     - _OutlineDistortTexXSpeed: 5
     - _OutlineDistortTexYSpeed: 5
-    - _OutlineGlow: 1.5
+    - _OutlineGlow: 1
     - _OutlinePixelWidth: 1
     - _OutlineTexXSpeed: 10
     - _OutlineTexYSpeed: 0
@@ -216,7 +216,7 @@ Material:
     - _ColorSwapGreen: {r: 1, g: 1, b: 1, a: 1}
     - _ColorSwapRed: {r: 1, g: 1, b: 1, a: 1}
     - _FadeBurnColor: {r: 1, g: 1, b: 0, a: 1}
-    - _GlowColor: {r: 0.9056604, g: 0.2947668, b: 0.2947668, a: 1}
+    - _GlowColor: {r: 0.18396229, g: 1, b: 0.31503054, a: 1}
     - _GradBotLeftCol: {r: 0, g: 0, b: 1, a: 1}
     - _GradBotRightCol: {r: 0, g: 1, b: 0, a: 1}
     - _GradTopLeftCol: {r: 1, g: 0, b: 0, a: 1}
