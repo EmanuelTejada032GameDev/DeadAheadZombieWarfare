@@ -27,7 +27,12 @@ public class TroopSpawner : MonoBehaviour
         if (troopScript.couragePointsCost <= GameManager.Instance.couragePoints)
         {
             GameManager.Instance.CouragePoints -= troopScript.couragePointsCost;
-            Instantiate(troop, transform.position, Quaternion.identity);
+            GameObject troopGO =  Instantiate(troop, transform.position, Quaternion.identity);
+            if (UIManager.Instance.isDoubleTapActive())
+            {
+                troopGO.GetComponent<Troop>().damagePoints += troopGO.GetComponent<Troop>().damagePoints;
+                troopGO.GetComponent<SpriteRenderer>().material.SetFloat("_OutlineAlpha", 1f);
+            }
         }
     }
 

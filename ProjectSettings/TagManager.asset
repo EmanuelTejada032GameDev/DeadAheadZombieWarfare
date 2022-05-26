@@ -8,6 +8,7 @@ TagManager:
   - Troop
   - EnemySpawner
   - Collectible
+  - ActivePerkCounter
   layers:
   - Default
   - TransparentFX

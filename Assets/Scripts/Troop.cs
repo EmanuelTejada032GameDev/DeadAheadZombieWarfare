@@ -12,7 +12,7 @@ public class Troop : MonoBehaviour
 
     [SerializeField] private Animator animator;
 
-    [SerializeField] private int health;
+    public int health;
     [SerializeField] private int maxHealth;
     [SerializeField]private HealthBarUI healthBar;
 
@@ -25,7 +25,6 @@ public class Troop : MonoBehaviour
 
     [SerializeField]
     private GameObject _floatingTextPrefab;
-
 
     private void Start()
     {

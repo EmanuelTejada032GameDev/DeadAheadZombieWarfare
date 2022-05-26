@@ -73,7 +73,6 @@ public class courageBox : MonoBehaviour
 
     public void AddCouragePoints()
     {
-        Debug.Log("should be destroyed");
         GameManager.Instance.couragePoints += _couragePointsAmount;
         if (_floatingTextPrefab) ShowFloatingText(_couragePointsAmount);
         Destroy(gameObject);
