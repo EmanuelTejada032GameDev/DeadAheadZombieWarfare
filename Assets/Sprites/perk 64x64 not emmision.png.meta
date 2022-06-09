@@ -1,52 +1,52 @@
 fileFormatVersion: 2
-guid: 4bfee76d8aa55164294a3d8308e27deb
+guid: 6c8a003a1e2008744be4d67c730b61f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3822444586764335958
-    second: Perks 64x64 Spritesheet_0
+      213: -2436350868316106903
+    second: perk 64x64 not emmision_0
   - first:
-      213: 3844232113509166606
-    second: Perks 64x64 Spritesheet_1
+      213: -9019356942758051889
+    second: perk 64x64 not emmision_1
   - first:
-      213: -6770983746714600847
-    second: Perks 64x64 Spritesheet_2
+      213: -7727725601511546689
+    second: perk 64x64 not emmision_2
   - first:
-      213: 2575500494698336264
-    second: Perks 64x64 Spritesheet_3
+      213: 7567904043327645807
+    second: perk 64x64 not emmision_3
   - first:
-      213: -7504960575194525789
-    second: Perks 64x64 Spritesheet_4
+      213: 2984445745673250597
+    second: perk 64x64 not emmision_4
   - first:
-      213: 9034525744266524152
-    second: Perks 64x64 Spritesheet_5
+      213: 8931749775884550480
+    second: perk 64x64 not emmision_5
   - first:
-      213: 1247752542641752382
-    second: Perks 64x64 Spritesheet_6
+      213: 3171757581100414748
+    second: perk 64x64 not emmision_6
   - first:
-      213: -8870342418752874964
-    second: Perks 64x64 Spritesheet_7
+      213: -8002137560976944815
+    second: perk 64x64 not emmision_7
   - first:
-      213: 6954039366005560067
-    second: Perks 64x64 Spritesheet_8
+      213: -2378997767198832441
+    second: perk 64x64 not emmision_8
   - first:
-      213: 959734961536043327
-    second: Perks 64x64 Spritesheet_9
+      213: -7641451328906970468
+    second: perk 64x64 not emmision_9
   - first:
-      213: -7086485050253362625
-    second: Perks 64x64 Spritesheet_10
+      213: -6300075326632742188
+    second: perk 64x64 not emmision_10
   - first:
-      213: 3415276109502412215
-    second: Perks 64x64 Spritesheet_11
+      213: -3636942487599077652
+    second: perk 64x64 not emmision_11
   - first:
-      213: -4123781210077333749
-    second: Perks 64x64 Spritesheet_12
+      213: -8551278184971438966
+    second: perk 64x64 not emmision_12
   - first:
-      213: 7398489207874218267
-    second: Perks 64x64 Spritesheet_13
+      213: -5098797953228760708
+    second: perk 64x64 not emmision_13
   - first:
-      213: 4983498344520888431
-    second: Perks 64x64 Spritesheet_14
+      213: 5596305152600986250
+    second: perk 64x64 not emmision_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -172,7 +172,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_0
+      name: perk 64x64 not emmision_0
       rect:
         serializedVersion: 2
         x: 19
@@ -180,20 +180,20 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65bf3b7791d0c0530800000000000000
-      internalID: 3822444586764335958
+      spriteID: 96fcdc92bc7503ed0800000000000000
+      internalID: -2436350868316106903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_1
+      name: perk 64x64 not emmision_1
       rect:
         serializedVersion: 2
         x: 83
@@ -201,20 +201,20 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0eecd75db4795530800000000000000
-      internalID: 3844232113509166606
+      spriteID: fcff37ca5aec4d280800000000000000
+      internalID: -9019356942758051889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_2
+      name: perk 64x64 not emmision_2
       rect:
         serializedVersion: 2
         x: 147
@@ -222,20 +222,20 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17af1251822a802a0800000000000000
-      internalID: -6770983746714600847
+      spriteID: fb06638328a91c490800000000000000
+      internalID: -7727725601511546689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_3
+      name: perk 64x64 not emmision_3
       rect:
         serializedVersion: 2
         x: 211
@@ -243,20 +243,20 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8005659ed040eb320800000000000000
-      internalID: 2575500494698336264
+      spriteID: f6869c481a8960960800000000000000
+      internalID: 7567904043327645807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_4
+      name: perk 64x64 not emmision_4
       rect:
         serializedVersion: 2
         x: 275
@@ -264,20 +264,20 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3af083eae1609d790800000000000000
-      internalID: -7504960575194525789
+      spriteID: 527a74ae791ea6920800000000000000
+      internalID: 2984445745673250597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_5
+      name: perk 64x64 not emmision_5
       rect:
         serializedVersion: 2
         x: 22
@@ -285,20 +285,20 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f5b0252c45116d70800000000000000
-      internalID: 9034525744266524152
+      spriteID: 05106464913f3fb70800000000000000
+      internalID: 8931749775884550480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_6
+      name: perk 64x64 not emmision_6
       rect:
         serializedVersion: 2
         x: 86
@@ -306,20 +306,20 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3980cf9358e05110800000000000000
-      internalID: 1247752542641752382
+      spriteID: c17742f17b8540c20800000000000000
+      internalID: 3171757581100414748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_7
+      name: perk 64x64 not emmision_7
       rect:
         serializedVersion: 2
         x: 150
@@ -327,20 +327,20 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c26d726319636e480800000000000000
-      internalID: -8870342418752874964
+      spriteID: 15198221942b2f090800000000000000
+      internalID: -8002137560976944815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_8
+      name: perk 64x64 not emmision_8
       rect:
         serializedVersion: 2
         x: 214
@@ -348,20 +348,20 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30318d495f5b18060800000000000000
-      internalID: 6954039366005560067
+      spriteID: 7c88aac922a1cfed0800000000000000
+      internalID: -2378997767198832441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_9
+      name: perk 64x64 not emmision_9
       rect:
         serializedVersion: 2
         x: 278
@@ -369,20 +369,20 @@ TextureImporter:
         width: 18
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3901e4dcd9a15d00800000000000000
-      internalID: 959734961536043327
+      spriteID: c9a3014a08c14f590800000000000000
+      internalID: -7641451328906970468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_10
+      name: perk 64x64 not emmision_10
       rect:
         serializedVersion: 2
         x: 21
@@ -390,20 +390,20 @@ TextureImporter:
         width: 18
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3a3881846fb7ad90800000000000000
-      internalID: -7086485050253362625
+      spriteID: 4d23ad1aed2a198a0800000000000000
+      internalID: -6300075326632742188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_11
+      name: perk 64x64 not emmision_11
       rect:
         serializedVersion: 2
         x: 85
@@ -411,20 +411,20 @@ TextureImporter:
         width: 18
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b5f4c4d68f756f20800000000000000
-      internalID: 3415276109502412215
+      spriteID: ce6a12ea31cf68dc0800000000000000
+      internalID: -3636942487599077652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_12
+      name: perk 64x64 not emmision_12
       rect:
         serializedVersion: 2
         x: 149
@@ -432,20 +432,20 @@ TextureImporter:
         width: 18
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b07f8e196d265c6c0800000000000000
-      internalID: -4123781210077333749
+      spriteID: a84fa312cc1c35980800000000000000
+      internalID: -8551278184971438966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_13
+      name: perk 64x64 not emmision_13
       rect:
         serializedVersion: 2
         x: 213
@@ -453,20 +453,20 @@ TextureImporter:
         width: 18
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1967e55cb6bca660800000000000000
-      internalID: 7398489207874218267
+      spriteID: c799f40b64e6d39b0800000000000000
+      internalID: -5098797953228760708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Perks 64x64 Spritesheet_14
+      name: perk 64x64 not emmision_14
       rect:
         serializedVersion: 2
         x: 277
@@ -474,14 +474,14 @@ TextureImporter:
         width: 18
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f603ae33751f82540800000000000000
-      internalID: 4983498344520888431
+      spriteID: a825873c2e11aad40800000000000000
+      internalID: 5596305152600986250
       vertices: []
       indices: 
       edges: []
@@ -495,9 +495,7 @@ TextureImporter:
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: a590c6f53680e254bbda20eb4abe1cb9, type: 3}
-      name: _Emission
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

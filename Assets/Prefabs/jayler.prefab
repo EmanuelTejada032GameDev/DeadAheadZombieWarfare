@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 7520001475728563434}
   - component: {fileID: 7520001475728563433}
   m_Layer: 3
-  m_Name: troop
+  m_Name: jayler
   m_TagString: Troop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -535,7 +535,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -217068365
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -6172002717774309205, guid: a96651c2bfc1fa549aa32a4f57a37ac3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -571,6 +571,7 @@ MonoBehaviour:
   attackInterval: 1
   enemyTarget: {fileID: 0}
   _floatingTextPrefab: {fileID: 8414091992374982337, guid: c3f418457ab6cf2439abb781b8287d1a, type: 3}
+  bloodSplaterEffect: {fileID: 8055703660581037754, guid: a6ec4d3db70cfac4ca8a373f7670a35a, type: 3}
 --- !u!95 &7520001475728563436
 Animator:
   serializedVersion: 3

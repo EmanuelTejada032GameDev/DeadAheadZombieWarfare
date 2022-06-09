@@ -26,6 +26,9 @@ public class Troop : MonoBehaviour
     [SerializeField]
     private GameObject _floatingTextPrefab;
 
+    [SerializeField]
+    private GameObject bloodSplaterEffect;
+
     private void Start()
     {
         healthBar.SetMaxHealth(maxHealth);
@@ -51,7 +54,8 @@ public class Troop : MonoBehaviour
     {
        
             health -= damageAmount;
-            if(health > 0)
+            Instantiate(bloodSplaterEffect, transform.position, Quaternion.identity);
+            if (health > 0)
             {
                 animator.Play("Hit");
             }

@@ -15,6 +15,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int damagePoints;
     [SerializeField] private float attackInterval;
 
+    [SerializeField]
+    private GameObject bloodSplaterEffect;
+
     Coroutine attackCoroutine;
 
     public Troop troopTarget;
@@ -49,6 +52,7 @@ public class Enemy : MonoBehaviour
     {
 
             health -= damageAmount;
+            Instantiate(bloodSplaterEffect, transform.position, Quaternion.identity);
             if (_floatingTextPrefab) ShowFloatingText(damageAmount);
             healthBar.SetHealth(health);
             if (health <= 0)

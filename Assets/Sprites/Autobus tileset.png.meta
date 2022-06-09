@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: 5ee798d34085a6643a2b830d128f24b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6869306659647195890
+    second: Autobus tileset_0
+  - first:
+      213: -1621553573886334189
+    second: Autobus tileset_1
+  - first:
+      213: 5648259885638829251
+    second: Autobus tileset_2
+  - first:
+      213: -6404320191037628083
+    second: Autobus tileset_3
+  - first:
+      213: 36330738156746427
+    second: Autobus tileset_4
+  - first:
+      213: -6790232892668183187
+    second: Autobus tileset_5
+  - first:
+      213: -6324548852762653316
+    second: Autobus tileset_6
+  - first:
+      213: -8078023235026499648
+    second: Autobus tileset_7
+  - first:
+      213: 3311126521127795068
+    second: Autobus tileset_8
+  - first:
+      213: 891082529934027666
+    second: Autobus tileset_9
+  - first:
+      213: 4415222018587760430
+    second: Autobus tileset_10
+  - first:
+      213: -7329190722379233660
+    second: Autobus tileset_11
+  - first:
+      213: -9137909002992929705
+    second: Autobus tileset_12
+  - first:
+      213: 3722021401068634535
+    second: Autobus tileset_13
+  - first:
+      213: -2029465459889027912
+    second: Autobus tileset_14
+  - first:
+      213: -6471482312434279982
+    second: Autobus tileset_15
+  - first:
+      213: 8682398203422949523
+    second: Autobus tileset_16
+  - first:
+      213: -6198708287435770360
+    second: Autobus tileset_17
+  - first:
+      213: -4378203734461867598
+    second: Autobus tileset_18
+  - first:
+      213: -4981910114369098644
+    second: Autobus tileset_19
+  - first:
+      213: -8768625460515014301
+    second: Autobus tileset_20
+  - first:
+      213: 3849800807243284927
+    second: Autobus tileset_21
+  - first:
+      213: -3059311498186038217
+    second: Autobus tileset_22
+  - first:
+      213: -5757971102834277172
+    second: Autobus tileset_23
+  - first:
+      213: 8652605852600642700
+    second: Autobus tileset_24
+  - first:
+      213: -5335589970508143131
+    second: Autobus tileset_25
+  - first:
+      213: 8795673309689579425
+    second: Autobus tileset_26
+  - first:
+      213: 1900907684479661636
+    second: Autobus tileset_27
+  - first:
+      213: 956838072200068044
+    second: Autobus tileset_28
+  - first:
+      213: 2750031106223492081
+    second: Autobus tileset_29
+  - first:
+      213: -7634206396940728119
+    second: Autobus tileset_30
+  - first:
+      213: -7877392127039440456
+    second: Autobus tileset_31
+  - first:
+      213: -2760169512728694658
+    second: Autobus tileset_32
+  - first:
+      213: -6078894722119923221
+    second: Autobus tileset_33
+  - first:
+      213: -8565527320045212680
+    second: Autobus tileset_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Autobus tileset_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 220
+        width: 125
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05f08afcf15ba0a0800000000000000
+      internalID: -6869306659647195890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 105
+        width: 323
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b6d3cad951f79e0800000000000000
+      internalID: -1621553573886334189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 177
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c44792b076a26e40800000000000000
+      internalID: 5648259885638829251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 176
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412751c7b84f17a0800000000000000
+      internalID: -6404320191037628083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 176
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6b2462d92118000800000000000000
+      internalID: 36330738156746427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 172
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6df65a092f34c1a0800000000000000
+      internalID: -6790232892668183187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 143
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d4a7ac350ba38a0800000000000000
+      internalID: -6324548852762653316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 142
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7c4ecbaa815ef80800000000000000
+      internalID: -8078023235026499648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 140
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c797232270c73fd20800000000000000
+      internalID: 3311126521127795068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 92
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b264ef6d2cd5c00800000000000000
+      internalID: 891082529934027666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 87
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2718667805064d30800000000000000
+      internalID: 4415222018587760430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 111
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4864f75aedb794a90800000000000000
+      internalID: -7329190722379233660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 86
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75433ce2d20af2180800000000000000
+      internalID: -9137909002992929705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_13
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 23
+        width: 86
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a109118eb647a330800000000000000
+      internalID: 3722021401068634535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_14
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 73
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4c363bae3e5d3e0800000000000000
+      internalID: -2029465459889027912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_15
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 71
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9912dcf1da036a0800000000000000
+      internalID: -6471482312434279982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_16
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 77
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390c3892a231e7870800000000000000
+      internalID: 8682398203422949523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_17
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 75
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806fe1d97a3c9f9a0800000000000000
+      internalID: -6198708287435770360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_18
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 75
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b99c1576ee7d33c0800000000000000
+      internalID: -4378203734461867598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_19
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 73
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6caa127523bcdab0800000000000000
+      internalID: -4981910114369098644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 30
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3697e811a959f4680800000000000000
+      internalID: -8768625460515014301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_21
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 30
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb18fb3ef6d3d6530800000000000000
+      internalID: 3849800807243284927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 28
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7346a5db6642b85d0800000000000000
+      internalID: -3059311498186038217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_23
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 25
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4499cf9c39710b0800000000000000
+      internalID: -5757971102834277172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_24
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 41
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c2ab1fd2b341870800000000000000
+      internalID: 8652605852600642700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_25
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 39
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5a9b4e03d24f5b0800000000000000
+      internalID: -5335589970508143131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_26
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 47
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a78e601642801a70800000000000000
+      internalID: 8795673309689579425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_27
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 45
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4467834b771616a10800000000000000
+      internalID: 1900907684479661636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_28
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 45
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbfd09382f574d00800000000000000
+      internalID: 956838072200068044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_29
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 42
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbc9b788b21a2620800000000000000
+      internalID: 2750031106223492081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 12
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c84550dab9dd0690800000000000000
+      internalID: -7634206396940728119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_31
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9fa5fb891eda290800000000000000
+      internalID: -7877392127039440456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_32
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 13
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7071f1c378e1b9d0800000000000000
+      internalID: -2760169512728694658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_33
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 13
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be98b05257d63aba0800000000000000
+      internalID: -6078894722119923221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autobus tileset_34
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 11
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb2dc6d842212980800000000000000
+      internalID: -8565527320045212680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
