@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1700199093805291504}
   - component: {fileID: 2514245783821114355}
   - component: {fileID: 6171221688318916420}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: courageBox
   m_TagString: Collectible
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _couragePointsAmount: 10
-  _floatingTextPrefab: {fileID: 8414091992374982337, guid: c3f418457ab6cf2439abb781b8287d1a, type: 3}
+  _floatingTextPrefab: {fileID: 3128262611959743406, guid: 2655ef5a8434c68489013f93c2305ff4, type: 3}
 --- !u!212 &2514245783821114355
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -54,7 +54,11 @@ public class Troop : MonoBehaviour
     {
        
             health -= damageAmount;
-            Instantiate(bloodSplaterEffect, transform.position, Quaternion.identity);
+            if(couragePointsCost != 0)
+            {
+                Instantiate(bloodSplaterEffect, transform.position, Quaternion.identity);
+
+            }
             if (health > 0)
             {
                 animator.Play("Hit");
@@ -113,8 +117,12 @@ public class Troop : MonoBehaviour
 
     IEnumerator Attack()
     {
-        animator.Play("Attack_Light", 0, 0);
-        yield return new WaitForSeconds(attackInterval);
-        attackCoroutine = StartCoroutine(Attack());
+        if(enemyTarget != null)
+        {
+            animator.Play("Attack_Light", 0, 0);
+            yield return new WaitForSeconds(attackInterval);
+            attackCoroutine = StartCoroutine(Attack());
+        }
+        
     }
 }

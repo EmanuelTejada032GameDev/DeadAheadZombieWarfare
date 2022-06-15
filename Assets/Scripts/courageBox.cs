@@ -83,6 +83,8 @@ public class courageBox : MonoBehaviour
         var gameObj = Instantiate(_floatingTextPrefab, transform.position, Quaternion.identity);
         gameObj.GetComponent<FloatingText>().startOffset = new Vector3(transform.position.x, transform.position.y + 0.5f , transform.position.z);
         gameObj.GetComponent<TextMesh>().text = $"+{couragePoints.ToString()}";
+        gameObj.GetComponent<Animator>().Play("floatUp");
+        Destroy(gameObj, 0.4f);
     }
 
     IEnumerator DestroyAfterNoUse()

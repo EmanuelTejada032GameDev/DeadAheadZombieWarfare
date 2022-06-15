@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        if (troopTarget == null)
+        if (troopTarget == null && troopBase == null)
         {
             Move();
         }
@@ -82,17 +82,32 @@ public class Enemy : MonoBehaviour
                 StopCoroutine(attackCoroutine);
             }
         }
-        
+
+        if (troopBase != null)
+        {
+            bool isTargetDead = troopBase.takeDamage(damagePoints);
+            if (isTargetDead)
+            {
+                troopBase = null;
+                StopCoroutine(attackCoroutine);
+            }
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (troopTarget != null)
+        if (troopTarget != null || troopBase != null)
             return;
 
         if (collision.CompareTag("Troop"))
         {
             troopTarget = collision.GetComponent<Troop>();
+            attackCoroutine = StartCoroutine(Attack());
+        }
+        else if(collision.CompareTag("TroopSpawner"))
+        {
+            troopBase = collision.GetComponent<TroopSpawner>();
             attackCoroutine = StartCoroutine(Attack());
         }
     }

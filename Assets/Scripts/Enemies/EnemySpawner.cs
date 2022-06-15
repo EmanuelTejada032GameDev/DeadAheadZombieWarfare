@@ -13,6 +13,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private int health;
     [SerializeField] private int maxHealth;
     [SerializeField] private HealthBarUI healthBar;
+
+    public TroopSpawner troopSpawner;
    
 
     private void Start()
@@ -33,9 +35,12 @@ public class EnemySpawner : MonoBehaviour
     {
         health -= damageAmount;
         healthBar.SetHealth(health);
+        if (health <= 10)
+        {
+            GameManager.Instance.MoveBus();
+        }
         if (health <= 0)
         {
-            Destroy(gameObject);
             return true;
         }
         return false;

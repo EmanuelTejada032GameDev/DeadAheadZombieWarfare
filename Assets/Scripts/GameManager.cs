@@ -9,6 +9,13 @@ public class GameManager : MonoBehaviour
     public int couragePoints;
     public int enemiesToSpawn;
 
+
+    public delegate void EnemyBaseDestroyed();
+    public static event EnemyBaseDestroyed OnEnemyBaseDestroyed;
+
+    Transform troopBaseTransform;
+
+
     [SerializeField] private Transform troopSpawner;
 
     public int CouragePoints{
@@ -35,6 +42,18 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         StartCoroutine("CouragePointsCounter");
+    }
+    public void MoveBus()
+    {
+        //animator.Play("MovingBus");
+        StartCoroutine(MoveForward());
+    }
+
+    IEnumerator MoveForward()
+    {
+        yield return new WaitForSeconds(0.01f);
+        troopBaseTransform.position = new Vector3(1,0,0);
+        StartCoroutine("MoveForward");
     }
 
     IEnumerator CouragePointsCounter()

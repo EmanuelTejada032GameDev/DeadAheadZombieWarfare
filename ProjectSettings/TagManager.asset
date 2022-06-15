@@ -9,6 +9,8 @@ TagManager:
   - EnemySpawner
   - Collectible
   - ActivePerkCounter
+  - Bullet
+  - TroopSpawner
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
+  - collectible
   - 
   - 
   - 
